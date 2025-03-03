@@ -1,2 +1,11 @@
 simple_search_engine/simple_search_engine/__pycache__/__init__.cpython-310.pyc
 simple_search_engine/simple_search_engine/__pycache__/settings.cpython-310.pyc
+simple_search_engine/search/__pycache__/__init__.cpython-310.pyc
+simple_search_engine/search/__pycache__/admin.cpython-310.pyc
+simple_search_engine/search/__pycache__/apps.cpython-310.pyc
+simple_search_engine/search/__pycache__/models.cpython-310.pyc
+simple_search_engine/search/migrations/0001_initial.py
+simple_search_engine/search/migrations/__pycache__/0001_initial.cpython-310.pyc
+simple_search_engine/search/migrations/__pycache__/__init__.cpython-310.pyc
+simple_search_engine/simple_search_engine/__pycache__/urls.cpython-310.pyc
+simple_search_engine/db.sqlite3
