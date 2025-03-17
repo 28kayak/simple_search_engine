@@ -13,8 +13,13 @@ def read_item(item_id: int, q:Union[str, None] = None):
     return {"item_id": item_id, "q":q }
 
 @app.get("/search")
-def search_endpoint(query:str):
-    return {"results": search(query)}
+def search_endpoint(query: str = None):
+    if query is None:
+        return {"error": "query is required"}
+    else:
+        # build or load your index here
+        inverted_index = build_inverted_index()  
+        return {"results": search(inverted_index, query)}
 
 @app.post("/add_document")
 def add_document_route(document:str):
